@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player</title>
     <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <main id="box-login">
-        <div>
-            <h2 class="perguntas">Já sou cadastrado</h3>
+        <h2 class="perguntas">Já sou cadastrado</h3>
+            <div class="enter">
             <form class="login-container">
-                <label for="email">Digite o seu E-mail</label>
-                <input type="text">
+                <label for="email">Email</label>
+                <input type="text" class="input">
             </form>
             <form class="login-container">
-                <label for="email">Digite a sua senha</label>
-                <input type="password">
+                <label for="email">Senha</label>
+                <input type="password" class="input">
             </form>
         </div>
+        <button id="enter">Entrar</button>
         <div>
             <h2 class="perguntas"> Não possuiu conta?</h2>
-            <div>
+            <button>
                 Registre-se
-            </div>            
+            </button>            
         </div>
         <!--Fiz apenas a estrutura básica, falta a estilização do registre-se e muitas outras coisas-->
     </main>
