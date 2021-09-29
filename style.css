@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#box-login{
+    background: rgb(54, 57, 59);
+    width: 30em;
+    height: 30em;
+    margin: 5em auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+.perguntas{
+    color: orange;
+    padding: 5%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.login-container{
+    height: 5%;
+    padding: 5%;
+    margin: 1em auto;
+
+}
