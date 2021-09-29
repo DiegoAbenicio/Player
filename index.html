@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="index.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <main id="box-login">
-        <h2 class="perguntas">Já sou cadastrado</h3>
-            <div class="enter">
-            <form class="login-container">
-                <label for="email">Email</label>
-                <input type="text" class="input">
-            </form>
-            <form class="login-container">
-                <label for="email">Senha</label>
-                <input type="password" class="input">
+
+        <h2 class="perguntas">Já sou cadastrado</h2>
+
+        <div class="enter">
+            <form class="login-container" name="dados">
+
+                <label for="userName">Usuario</label>
+                <input type="text" class="input" name="userName">
+                
+                <label for="password">Senha</label>
+                <input type="password" class="input" name="password">
+
+                <button class="botoes" onclick="javascript:login()">Entrar</button>
             </form>
         </div>
-        <button id="enter">Entrar</button>
-        <div>
+       
+        <div class="enter cadastrase">
             <h2 class="perguntas"> Não possuiu conta?</h2>
-            <button>
-                Registre-se
-            </button>            
+            <button id="register"><a href="anotherPages/registre.html">Registre-se</a></button>            
         </div>
         <!--Fiz apenas a estrutura básica, falta a estilização do registre-se e muitas outras coisas-->
     </main>

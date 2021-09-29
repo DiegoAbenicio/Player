@@ -1,0 +1,102 @@
+:root{
+    --bigBox: #C04CFD;
+    --background: #F3FAE1;
+    --buttonHover: #c74eff;
+    --inputColor: #2f2235;
+
+}
+
+
+body {
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+
+#box-login{
+    background: var(--bigBox);
+    border-radius: 30px 0 30px 0;
+    width: 30em;
+    height: 30em;
+    margin: 5em auto;
+    color: var(--inputColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.perguntas{
+    color: white;
+    padding: 5%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.login-container{
+    height: 5%;
+    padding-top: 10%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+}
+
+.enter{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    height: 28%;
+    margin-top: 10%;
+}
+
+button{
+    background-color: var(--inputColor);
+    color: var(--background);
+    border: 1px solid var(--background);
+    margin: 15% auto;
+    position: relative;
+}
+
+button:hover{
+    color: var(--buttonHover);
+    top:-2px;box-shadow:0 2px 2px #666;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: var(--background);
+}
+
+label{
+    margin-right: 5px;
+}
+
+h2{
+    font-size: 1.5em;
+}
+.input{
+    background-color: var(--inputColor);
+    color: var(--background);
+    border: 0;
+    border-radius: 6px;
+    height: 1.6em;
+    width: 14em;
+}
+
+.enter.cadastrase{
+    margin: 0;
+    padding: 0;
+}
+#register{
+    margin: 5% auto;
+    width: 10em;
+}
+a{
+    text-decoration:none;
+    color: var(--background);
+}
+a:hover{
+    color: var(--buttonHover);
+}
