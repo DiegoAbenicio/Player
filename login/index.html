@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <main id="box-login">
+        <h1 class="title">Song Player</h1>
+        <h2 class="options">Já sou cadastrado</h2>
+        <div class="form-container">
+            <form class="login" name="dados">
+
+                <label for="userName">Usuario</label>
+                <input type="text" class="input" name="userName">
+                
+                <label for="password">Senha</label>
+                <input type="password" class="input" name="password">
+
+                <button onclick="javascript:login()">Entrar</button>
+            </form>
+        </div>
+        <div class="register-box">
+            <h2 class="options"> Não possuiu conta?</h2>
+            <button id="register" onclick="goToRegister()">Registre-se</button>            
+        </div>
+        <!--Fiz apenas a estrutura básica, falta a estilização do registre-se e muitas outras coisas-->
+    </main>
+</body>
+</html>
