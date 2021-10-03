@@ -6,7 +6,6 @@
 
 }
 
-
 body {
     background-color: var(--background);
     font-family: 'Roboto', sans-serif;
@@ -26,57 +25,45 @@ body {
     box-shadow: 10px 5px 5px gray;
 }
 
-.perguntas{
+.title{
     color: white;
-    padding: 5%;
-    margin-bottom: 0px;
+    padding: 30px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 4px;
     text-align: center;
 }
 
-.login-container{
-    height: 5%;
-    padding-top: 10%;
-    margin: 1em auto;
+.options{
+    color: white;
+    padding: 0;
+    margin-bottom: 4px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 28%;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.login{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: baseline;
-    
+    height: 5%;
+    padding-top: 10%;
+    margin: 1em auto;
 }
 
-.enter{
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    align-items: center;
-    height: 28%;
-    margin-top: 10%;
-}
-
-button{
-    background-color: var(--inputColor);
-    color: var(--background);
-    border: 1px solid var(--background);
-    margin: 15% auto;
-    position: relative;
-}
-
-button:hover{
-    color: var(--buttonHover);
-    top:-2px;box-shadow:0 2px 2px #666;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    background-color: var(--background);
-}
-
-label{
-    margin-right: 5px;
-}
-
-h2{
-    font-size: 1.5em;
-}
 .input{
+    margin: 10px;
     background-color: var(--inputColor);
     color: var(--background);
     border: 0;
@@ -85,18 +72,35 @@ h2{
     width: 14em;
 }
 
-.enter.cadastrase{
-    margin: 0;
+button{
+    background-color: var(--inputColor);
+    color: var(--background);
+    border: 1px solid var(--background);
+    border-radius: 10px;
+    margin: 28% auto;
+    margin-top: 14px;
+    padding: 8px;
+    width: 140px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    transition: .3s ease all;
+}
+
+button:hover{
+    color: var(--buttonHover);
+    top:-2px;
+    box-shadow:4px 3px 3px #666;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: var(--background);
+}
+
+.register-box{
+    margin-top: 10px;
     padding: 0;
 }
 #register{
     margin: 5% auto;
     width: 10em;
-}
-a{
-    text-decoration:none;
-    color: var(--background);
-}
-a:hover{
-    color: var(--buttonHover);
 }

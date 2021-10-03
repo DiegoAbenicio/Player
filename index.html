@@ -11,11 +11,10 @@
 </head>
 <body>
     <main id="box-login">
-
-        <h2 class="perguntas">Já sou cadastrado</h2>
-
-        <div class="enter">
-            <form class="login-container" name="dados">
+        <h1 class="title">Song Player</h1>
+        <h2 class="options">Já sou cadastrado</h2>
+        <div class="form-container">
+            <form class="login" name="dados">
 
                 <label for="userName">Usuario</label>
                 <input type="text" class="input" name="userName">
@@ -23,13 +22,12 @@
                 <label for="password">Senha</label>
                 <input type="password" class="input" name="password">
 
-                <button class="botoes" onclick="javascript:login()">Entrar</button>
+                <button onclick="javascript:login()">Entrar</button>
             </form>
         </div>
-       
-        <div class="enter cadastrase">
-            <h2 class="perguntas"> Não possuiu conta?</h2>
-            <button id="register"><a href="anotherPages/registre.html">Registre-se</a></button>            
+        <div class="register-box">
+            <h2 class="options"> Não possuiu conta?</h2>
+            <button id="register" onclick="goToRegister()">Registre-se</button>            
         </div>
         <!--Fiz apenas a estrutura básica, falta a estilização do registre-se e muitas outras coisas-->
     </main>

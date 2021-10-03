@@ -7,3 +7,7 @@ function login(){
     else
         alert('Você deve inserir as informações corretas')
 }
+
+function goToRegister(){
+    window.location.href = "anotherPages/registre.html"
+}
