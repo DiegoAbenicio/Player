@@ -1,32 +1,30 @@
-:root{
-    --bigBox: #C04CFD;
-    --background: #F3FAE1;
-    --buttonHover: #c74eff;
-    --inputColor: #2f2235;
-
+:root {
+    --bigBox: #1D3557;
+    --background: #F1FAEE;
+    --buttonHover: #1D3557;
+    --inputColor: #F1FAEE;
 }
 
 body {
     background-color: var(--background);
-    font-family: 'Roboto', sans-serif;
+    font-family: Inter;
 }
 
-#box-login{
+#box-login {
     background: var(--bigBox);
-    border-radius: 30px 0 30px 0;
-    width: 30em;
-    height: 30em;
+    width: 25em;
+    height: 35em;
     margin: 5em auto;
+    border-radius: 25px;
     color: var(--inputColor);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    box-shadow: 10px 5px 5px gray;
 }
 
-.title{
-    color: white;
+.title {
+    color: #CCCCCC;
     padding: 30px;
     padding-bottom: 0;
     margin-bottom: 10px;
@@ -34,25 +32,26 @@ body {
     text-align: center;
 }
 
-.options{
-    color: white;
+.options {
+    color: #CCCCCC;
     padding: 0;
     margin-bottom: 4px;
     margin-top: 14px;
     text-align: center;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95%;
     height: 28%;
-    padding-top: 20px;
+    padding-top: 35px;
     margin-top: 30px;
+    color: var(--inputColor);
 }
 
-.login{
+.login {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -62,19 +61,19 @@ body {
     margin: 1em auto;
 }
 
-.input{
+.input {
     margin: 10px;
     background-color: var(--inputColor);
-    color: var(--background);
+    color: var(--bigBox);
     border: 0;
     border-radius: 6px;
     height: 1.6em;
     width: 14em;
 }
 
-button{
+button {
     background-color: var(--inputColor);
-    color: var(--background);
+    color: #457B9D;
     border: 1px solid var(--background);
     border-radius: 10px;
     margin: 28% auto;
@@ -87,20 +86,21 @@ button{
     transition: .3s ease all;
 }
 
-button:hover{
-    color: var(--buttonHover);
-    top:-2px;
-    box-shadow:4px 3px 3px #666;
+button:hover {
+    color: var(--bigBox);
+    top: -2px;
+    box-shadow: 4px 3px 3px #666;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    background-color: var(--background);
+    background-color: var(--inputColor);
 }
 
-.register-box{
+.register-box {
     margin-top: 10px;
     padding: 0;
 }
-#register{
+
+#register {
     margin: 5% auto;
     width: 10em;
 }
