@@ -1,13 +1,14 @@
 function login(){
+
     var usuario = document.dados.userName.value
     var senha = document.dados.password.value
     
     if(usuario == "root" && senha == "root")
-        alert('Sucesso')
+        window.location.href = "../playerLand/playerLand.html"
     else
         alert('Você deve inserir as informações corretas')
 }
 
 function goToRegister(){
-    window.location.href = "anotherPages/registre.html"
+    window.location.href = "../register/register.html"
 }

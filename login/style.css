@@ -1,13 +1,16 @@
 :root {
-    --bigBox: #1D3557;
+    --bigBox: #006aff;
     --background: #F1FAEE;
     --buttonHover: #1D3557;
     --inputColor: #F1FAEE;
+    --title: white;
+    --buttoncolor: #457B9D;
+    --boxshadow: #003580;
 }
 
 body {
     background-color: var(--background);
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif;
 }
 
 #box-login {
@@ -15,16 +18,17 @@ body {
     width: 25em;
     height: 35em;
     margin: 5em auto;
-    border-radius: 25px;
+    border-radius: 30px 0 30px 0;
     color: var(--inputColor);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    box-shadow: 10px 5px 5px gray;
 }
 
 .title {
-    color: #CCCCCC;
+    color: var(--title);
     padding: 30px;
     padding-bottom: 0;
     margin-bottom: 10px;
@@ -33,7 +37,7 @@ body {
 }
 
 .options {
-    color: #CCCCCC;
+    color: var(--title);
     padding: 0;
     margin-bottom: 4px;
     margin-top: 14px;
@@ -57,8 +61,8 @@ body {
     justify-content: space-evenly;
     align-items: baseline;
     height: 5%;
-    padding-top: 10%;
-    margin: 1em auto;
+    padding-top: 2%;
+    margin: 0.3em auto;
 }
 
 .input {
@@ -73,7 +77,7 @@ body {
 
 button {
     background-color: var(--inputColor);
-    color: #457B9D;
+    color: var(--buttoncolor);
     border: 1px solid var(--background);
     border-radius: 10px;
     margin: 28% auto;
@@ -89,10 +93,10 @@ button {
 button:hover {
     color: var(--bigBox);
     top: -2px;
-    box-shadow: 4px 3px 3px #666;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     background-color: var(--inputColor);
+    box-shadow:4px 3px 3px var(--boxshadow);
 }
 
 .register-box {
@@ -102,5 +106,9 @@ button:hover {
 
 #register {
     margin: 5% auto;
-    width: 10em;
+    width: 140px;
+}
+
+#loginbutton{
+    margin-top: 20%;
 }
