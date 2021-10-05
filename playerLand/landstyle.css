@@ -5,6 +5,7 @@ body {
 }
 
 a {
+    display: flex;
     text-decoration: none;
     color: rgb(185, 192, 197);
     transition: all 0.2s;
@@ -12,26 +13,6 @@ a {
 
 a:hover {
     color: aliceblue;
-}
-
-ul.navBar {
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    height: 3em;
-    display: flex;
-    overflow: hidden;
-    transition: all 0.2;
-    align-items: center;
-    list-style-type: none;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.80);
-}
-
-li.navBar {
-    margin: 5%;
-    font-size: large;
-    align-items: center;
 }
 
 ul.table {
@@ -60,4 +41,33 @@ img.table {
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+}
+
+.playimg{
+    width: 12%;
+    padding-right: 10px;    
+}
+
+.playlink{   
+    align-items: center;
+    justify-content: center;
+    margin: 8%;
+    
+}
+
+.backBar{
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.imgBarLand{
+    height: 24px;
+    margin-right: 0.5%;
+    margin-left: 1.5%;
+    padding-bottom: 0;
+}
+
+.reverseImgBarLand{
+    height: 24px;
+    margin-right: 1.5%;
+    margin-left: 0.5%;;
 }
