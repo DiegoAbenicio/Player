@@ -8,11 +8,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none; 
+    text-decoration: none;     
 }
+
+a {
+    text-decoration: none;
+    color: rgb(240, 244, 247);
+    transition: all 0.2s;
+}
+a:hover {
+    color: aliceblue;
+}
+
+
 body{
     background-color: var(--background);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Roboto', sans-serif;
     color: var(--words);
 }
 main{
@@ -23,9 +34,11 @@ main{
     margin-right: auto;
 }
 .imagem{
-    width: 20%;
+    width: 25%;
+    height: 25%;
     margin-right: 10%;
 }
+
 main .sub-header{
     display: flex;
     background-color: var(--colortabel);
@@ -66,4 +79,24 @@ main .content{
 
 .backBar{
     background-color: var(--colortabel);
+}
+
+ul.navBar {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.2;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+li.navBar {
+    margin: 5%;
+    font-size: large;
+    align-items: center;
 }

@@ -1,11 +1,9 @@
 :root {
-    --bigBox: #006aff;
-    --background: #F1FAEE;
-    --buttonHover: #1D3557;
+    --bigBox: rgba(0, 0, 0, 0.7);
+    --background: rgba(0, 0, 0, 0.80);
     --inputColor: #F1FAEE;
     --title: white;
-    --buttoncolor: #457B9D;
-    --boxshadow: #003580;
+    --buttoncolor: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -13,22 +11,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#box-login{
+#box-login {
     background: var(--bigBox);
-    border-radius: 30px 0 30px 0;
     width: 25em;
-    height: 30em;
+    height: 35em;
     margin: 5em auto;
+    border-radius: 30px;
     color: var(--inputColor);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    box-shadow: 10px 5px 5px gray;
 }
 
-.title{
-    color: var(--title);    
+.title {
+    color: var(--title);
     padding: 30px;
     padding-bottom: 0;
     margin-bottom: 10px;
@@ -36,7 +33,7 @@ body {
     text-align: center;
 }
 
-.options{
+.options {
     color: var(--title);
     padding: 0;
     margin-bottom: 4px;
@@ -44,30 +41,31 @@ body {
     text-align: center;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95%;
     height: 28%;
-    padding-top: 20px;
+    padding-top: 35px;
     margin-top: 30px;
+    color: var(--inputColor);
 }
 
-.login{
+.login {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: baseline;
     height: 5%;
-    padding-top: 20%;
-    margin: 1em auto;
+    padding-top: 2%;
+    margin: 0.3em auto;
 }
 
-.input{
+.input {
     margin: 10px;
     background-color: var(--inputColor);
-    color: var(--background);
+    color: var(--bigBox);
     border: 0;
     border-radius: 6px;
     height: 1.6em;
@@ -95,14 +93,18 @@ button:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     background-color: var(--inputColor);
-    box-shadow:4px 3px 3px var(--boxshadow);
 }
 
-.register-box{
+.register-box {
     margin-top: 10px;
     padding: 0;
 }
-#register{
+
+#register {
     margin: 5% auto;
-    width: 10em;
+    width: 140px;
+}
+
+#loginbutton{
+    margin-top: 20%;
 }

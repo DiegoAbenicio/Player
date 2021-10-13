@@ -1,13 +1,13 @@
 body {
     margin: 0%;
     background-color: rgba(0, 0, 0, 0.8);
-    font-family: SF pro Display, Montserrat, Inter, Sora;
+    font-family:'Roboto', sans-serif;
+   
 }
 
 a {
-    display: flex;
     text-decoration: none;
-    color: rgb(185, 192, 197);
+    color: rgb(240, 244, 247);
     transition: all 0.2s;
 }
 
@@ -15,12 +15,30 @@ a:hover {
     color: aliceblue;
 }
 
+ul.navBar {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.2;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+li.navBar {
+    margin: 5%;
+    font-size: large;
+    align-items: center;
+}
+
 ul.table {
-    height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 10cm;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 li.table {
@@ -36,38 +54,9 @@ li.table {
 }
 
 img.table {
-    width: 60%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
-}
-
-.playimg{
-    width: 12%;
-    padding-right: 10px;    
-}
-
-.playlink{   
-    align-items: center;
-    justify-content: center;
-    margin: 8%;
-    
-}
-
-.backBar{
-    background-color: rgba(0, 0, 0, 0.80);
-}
-
-.imgBarLand{
-    height: 24px;
-    margin-right: 0.5%;
-    margin-left: 1.5%;
-    padding-bottom: 0;
-}
-
-.reverseImgBarLand{
-    height: 24px;
-    margin-right: 1.5%;
-    margin-left: 0.5%;;
 }
