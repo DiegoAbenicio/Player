@@ -1,11 +1,9 @@
 :root {
-    --bigBox: #006aff;
-    --background: #F1FAEE;
-    --buttonHover: #1D3557;
+    --bigBox: rgba(0, 0, 0, 0.7);
+    --background: rgba(0, 0, 0, 0.80);
     --inputColor: #F1FAEE;
     --title: white;
-    --buttoncolor: #457B9D;
-    --boxshadow: #003580;
+    --buttoncolor: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -18,13 +16,12 @@ body {
     width: 25em;
     height: 35em;
     margin: 5em auto;
-    border-radius: 30px 0 30px 0;
+    border-radius: 30px;
     color: var(--inputColor);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    box-shadow: 10px 5px 5px gray;
 }
 
 .title {
@@ -95,8 +92,7 @@ button:hover {
     top: -2px;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    background-color: var(--inputColor);
-    box-shadow:4px 3px 3px var(--boxshadow);
+    background-color: rgba(0, 255, 157, 0.8);
 }
 
 .register-box {

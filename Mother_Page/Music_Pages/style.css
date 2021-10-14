@@ -1,0 +1,88 @@
+body {
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 244, 247);
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+ul.navBar {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    overflow: hidden;
+    transition: all 0.2;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+li.navBar {
+    margin: 5%;
+    font-size: large;
+    align-items: center;
+}
+
+#info {
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+#menu {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    background-color: rgba(0, 255, 157, 0.8);
+}
+
+#menu li {
+    margin-top: 2%;
+    margin-left: 45px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+#songs {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    list-style-type: none;
+    color: rgb(240, 244, 247);
+    background-color: rgb(54, 54, 54);
+}
+
+#songs li {
+    padding: 5px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34, 0.5);
+    margin: 5px;
+    transition: all 0.2s;
+}
+
+#songs li:hover{
+    background-color: rgb(34, 34, 34, 0.8);
+}
+
+.play {
+    width: 1%;
+    opacity: 0%;
+    transition: all 0.2s;
+}
+
+.play:hover {
+    opacity: 100%;
+}

@@ -1,8 +1,7 @@
 body {
     margin: 0%;
     background-color: rgba(0, 0, 0, 0.8);
-    font-family:'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -35,28 +34,40 @@ li.navBar {
     align-items: center;
 }
 
-ul.table {
-    height: 10cm;
-    margin-left: 6%;
-    margin-right: 6%;
-}
-
-li.table {
-    margin: 1em;
-    width: 13em;
-    height: 13em;
-    font-size: large;
-    text-align: center;
-    list-style-type: none;
-    border-radius: 10px;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-img.table {
-    width: 80%;
-    display: block;
+table {
+    margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
+}
+
+tr {
+    width: 250px;
+    height: 300px;
+}
+
+td {
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    margin: 2cm;
+    transition: all 0.2s;
+}
+
+td:hover {
+    background-color: rgb(170, 170, 170);
+    
+}
+
+#albuns img {
+    max-width: 250px;
+    max-height: 205px;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 5px;
+}
+
+#albuns a {
+    text-decoration: none;
 }
