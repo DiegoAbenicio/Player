@@ -13,5 +13,5 @@
 ### Funcionalidades:
 - O usuário pode acessar a página inicial pela página de login se digitar "root" nos campos de usuário e senha.
 - O usuário pode escolher entre os botões da barra de navegação.
-- O usuário pode entrar na página de um dos álbúums, onde há informações sobre o mesmo e lista todas suas músicas (almeja-se implentar uma forma de reproduzir a música a partir do back-end)
+- O usuário pode entrar na página de um dos álbuns, onde há informações sobre o mesmo e lista todas suas músicas (almeja-se implentar uma forma de reproduzir a música a partir do back-end)
 ##
