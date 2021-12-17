@@ -10,5 +10,5 @@ function login(){
 }
 
 function goToRegister(){
-    window.location.href = "index.html"
+    window.location.href = "register.html"
 }
