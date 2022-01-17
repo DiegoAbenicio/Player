@@ -16,17 +16,18 @@
         <h1 class="title">Song Player</h1>
         <h2 class="options">Já sou cadastrado</h2>
         <div class="form-container">
-            <form class="login" name="dados">
+            <form class="login" name="dados" method="POST" action="login.php">
 
                 <label for="userName">Usuario</label>
-                <input type="text" class="input" name="userName">
+                <input type="text" class="input" name="login">
 
                 <label for="password">Senha</label>
-                <input type="password" class="input" name="password">
+                <input type="password" class="input" name="senha">
 
-
+                <input type="submit" value="entrar" id="entrar" name="entrar">
             </form>
-            <button onclick="login()" id="loginbutton">Login</button>
+            
+            
 
         </div>
         <div class="register-box">

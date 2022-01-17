@@ -16,15 +16,15 @@
         <h1 class="title">Song Player</h1>
         <h2 class="options">Cadastre seus dados</h2>
         <div class="form-container">
-            <form class="login" name="dados">
+            <form class="login" name="dados" method="POST" action="cadastro.php">
 
                 <label for="userName">Usuario</label>
-                <input type="text" class="input" name="userName">
+                <input type="text" class="input" name="login">
 
                 <label for="password">Senha</label>
-                <input type="password" class="input" name="password">
+                <input type="password" class="input" name="senha">
 
-                <input type="submit" value="Registrar" id="loginbutton" >
+                <input type="submit" value="Registrar" id="loginbutton" name="cadastrar">
             </form>
 
         </div>
