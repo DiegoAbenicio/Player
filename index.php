@@ -1,8 +1,7 @@
 <?php
   $login_cookie = $_COOKIE['login'];
     if(isset($login_cookie)){
-      echo"Bem-Vindo, $login_cookie <br>";
-      echo"Essas informações <font color='red'>PODEM</font> ser acessadas por você";
+      header("Location:Mother_Page/index.html");
     }else{
       echo"Bem-Vindo, convidado <br>";
       echo"Essas informações <font color='red'>NÃO PODEM</font> ser acessadas por você";
