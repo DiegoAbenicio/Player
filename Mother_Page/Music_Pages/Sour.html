@@ -8,9 +8,10 @@
     <title>Sour</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../Midea/Icons/play_buttom.ico">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
+<body onload="fpage(1)">
     <ul class="navBar">
         <li class="navBar"><a href="../index.html">Início</a></li>
         <li class="navBar"><a href="#">Buscar</a></li>
@@ -32,17 +33,19 @@
     </ul>
 
     <ul id="songs">
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(1)">
             Drivers License</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(2)">
             Deja Vu</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(3)">
             Good 4 U</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(4)">
             Traitor</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(5)">
             Brutal</li>
-    </ul>
+   </ul>
+   <audio controls id="audioplayer" src="../../Midea/Songs/Olivia Rodrigo/Olivia Rodrigo - Drivers License.mp3">
+    </audio>
 </body>
 
 </html>

@@ -86,3 +86,10 @@ li.navBar {
 .play:hover {
     opacity: 100%;
 }
+
+#audioplayer{
+    margin: 1% auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}

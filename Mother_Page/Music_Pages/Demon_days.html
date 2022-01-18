@@ -8,9 +8,10 @@
     <title>Demon Days</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../Midea/Icons/play_buttom.ico">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
+<body onload="fpage(2)">
     <ul class="navBar">
         <li class="navBar"><a href="../index.html">Início</a></li>
         <li class="navBar"><a href="#">Buscar</a></li>
@@ -37,35 +38,37 @@
     </ul>
 
     <ul id="songs">
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(1)">
             Intro</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Last Living Souls</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Kids with Guns</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            O Green World</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Dirty Harry</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Feel Good Inc.</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            El Mañana</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Every Planet We Reach Is Dead</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            November Has Come</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            All Alone</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            White Light</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            DARE</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Fire Coming Out of the Monkey's Head</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
-            Demon Days</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(2)">
+                Last Living Souls</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(3)">
+                Kids with Guns</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(4)">
+                O Green World</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(5)">
+                Dirty Harry</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(6)">
+                Feel Good Inc.</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(7)">
+                El Mañana</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(8)">
+                Every Planet We Reach Is Dead</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(9)">
+                November Has Come</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(10)">
+                All Alone</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(11)">
+                White Light</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(12)">
+                DARE</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(13)">
+                Fire Coming Out of the Monkey's Head</li>
+            <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(14)">
+                Demon Days</li>
     </ul>
+    <audio controls id="audioplayer" src="../../Midea/Songs/Gorillaz/Gorillaz - Intro.mp3">
+    </audio>
 </body>
 
 </html>

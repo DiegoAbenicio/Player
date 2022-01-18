@@ -8,9 +8,10 @@
     <title>Favourite Worst Nightmare</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../Midea/Icons/play_buttom.ico">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
+<body onload="fpage(3)">
     <ul class="navBar">
         <li class="navBar"><a href="../index.html">Início</a></li>
         <li class="navBar"><a href="#">Buscar</a></li>
@@ -32,13 +33,15 @@
     </ul>
 
     <ul id="songs">
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(1)">
             Brianstorm</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(2)">
             Fluorescent Adolescent</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(3)">
             Teddy Picker</li>
     </ul>
+    <audio controls id="audioplayer" src="../../Midea/Songs/Arctic Monkeys/Arctic Monkeys - Brianstorm.mp3">
+    </audio>
 </body>
 
 </html>

@@ -8,9 +8,10 @@
     <title>The Clarence Greenwood Recordings</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../../Midea/Icons/play_buttom.ico">
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body>
+<body onload="fpage(4)">
     <ul class="navBar">
         <li class="navBar"><a href="../index.html">Início</a></li>
         <li class="navBar"><a href="#">Buscar</a></li>
@@ -32,30 +33,32 @@
     </ul>
 
     <ul id="songs">
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(1)">
             Nite Becomes Day</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(2)">
             Pablo Picasso</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(3)">
             My Way Home</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(4)">
             Son's Gonna Rise</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(5)">
             Sideways</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(6)">
             Penitentiary</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(7)">
             Hurricane Waters</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(8)">
             D'Artagnan's Theme</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(9)">
             Bullet And A Target</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(10)">
             Fame</li>
-        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play">
+        <li><img src="../../Midea/Icons/play_buttom.png" alt="" class="play" onclick="play(11)">
             Deep</li>
         
     </ul>
+    <audio controls id="audioplayer" src="../../Midea/Songs/Citizen Cope/Citizen Cope - Nite Becomes Day.mp3">
+    </audio>
 </body>
 
 </html>
