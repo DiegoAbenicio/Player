@@ -20,8 +20,8 @@ elseif($login == '' || $login == null){
 else{
   $verificarusuario = mysqli_query($connect, "SELECT*FROM usuarios WHERE login='$login'"); 
   $verificar = mysqli_fetch_array($verificarusuario);
+  $senha2 == null;
   if($verificar > 1){
-    $senha2 == null;
     echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='register.html';</script>"; die();
   }
   else{
