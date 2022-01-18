@@ -36,8 +36,8 @@ body {
 .options {
     color: var(--title);
     padding: 0;
-    margin-bottom: 4px;
-    margin-top: 14px;
+    margin-bottom: 18px;
+    margin-top: 8px;
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .input {
-    margin: 10px;
+    margin: 8px;
     background-color: var(--inputColor);
     color: var(--bigBox);
     border: 0;
@@ -94,6 +94,29 @@ button:hover {
     transform: scale(1.2);
     background-color: rgba(0, 255, 157, 0.8);
 }
+
+.buttonform{
+    background-color: var(--inputColor);
+    color: var(--buttoncolor);
+    border: 1px solid var(--background);
+    border-radius: 10px;
+    margin: 0% auto;
+    margin-top: 0%;
+    padding: 8px;
+    width: 140px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    transition: .3s ease all;
+}
+
+.buttonform:hover {
+    color: var(--bigBox);
+    top: -2px;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: rgba(0, 255, 157, 0.8);
+} 
 
 .register-box {
     margin-top: 10px;
