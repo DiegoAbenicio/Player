@@ -10,7 +10,9 @@ $db = mysqli_select_db($connect, 'songlib');
 $query_select = "SELECT login FROM usuarios WHERE login = '$login'";
 $select = mysqli_query($connect, $query_select);
 
-
+/* 
+  Faz todas as verificacoes para ver se o cadastro e valido
+*/
 if($senha2 == '' || $senha2 == null){
   echo "<script language='javascript' type='text/javascript'>alert('O campo senha deve ser preenchido');window.location.href='register.html';</script>";
 }

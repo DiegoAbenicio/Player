@@ -2,8 +2,11 @@ var page = 0;
 function fpage(currentPage){
   page = currentPage;
 }
-
+/* A variavel 'page' fica responsavel por armazenar a pagina em que o usuario se encontra */
 function play(music) {
+
+/*Com a informacao da pagina, o programa leva para um switch, este switch contem um monte de
+numeros, cada musica tera o seu numero, e assim o programa sabera qual musica ele deve tocar */
  if(page == 1){
     switch (music){
       case 1:

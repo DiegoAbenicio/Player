@@ -1,4 +1,6 @@
 <?php
+/* Leva o usuario para a pagina de login caso a senha esteja certa, e leva o usuario
+  para uma pagina de erro caso esteja errada */
   $login_cookie = $_COOKIE['login'];
     if(isset($login_cookie)){
       header("Location:Mother_Page/index.html");
