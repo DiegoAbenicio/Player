@@ -7,7 +7,6 @@
 ##
 ### Alunos: 
 - Diego Alipio Abenicio
-- Heitor Gabriel Leite Gomes
 - Isac Gonçalves Cunha
 ##
 ### Funcionalidades:
